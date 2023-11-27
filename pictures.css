@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----- HELENA VIDEO ------ */
+video {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  left: 10px;
+  align-items: center;
+  margin: auto;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-width: 800px;
+}
+
+.youtube {
+  align-items: center;
+  margin: auto;
+}
+/* ---- HELENA PIC 1 ----- */
+
+#pic_container1 {
+  width: 50%;
+  aspect-ratio: 16/9;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.563);
+  rotate: 15deg;
+  padding: 1%;
+  background-color: rgb(254, 251, 244);
+  margin-top: 90px;
+}
+#pic_sprite1 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(pics/IMG_1344.jpeg);
+}
+
+/* ---- HELENA PIC 2 ----- */
+
+#pic_container2 {
+  width: 50%;
+  aspect-ratio: 16/9;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.563);
+  rotate: 7deg;
+  padding: 1%;
+  background-color: rgb(254, 251, 244);
+  margin-top: 60px;
+}
+#pic_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(pics/IMG_1349.jpeg);
+}
+
+/* ---- HELENA PIC 3 ----- */
+
+#pic_container3 {
+  width: 50%;
+  aspect-ratio: 16/9;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.563);
+  rotate: -13deg;
+  padding: 1%;
+  background-color: rgb(254, 251, 244);
+  margin-top: 60px;
+}
+#pic_sprite3 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(pics/IMG_1373.jpeg);
+}
+
+/* ---- HELENA PIC 3 ----- */
+
+#pic_container4 {
+  width: 30%;
+  aspect-ratio: 9/13;
+  position: absolute;
+  top: 80%;
+  left: 58%;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.563);
+  rotate: -9deg;
+  padding: 1%;
+  background-color: rgb(254, 251, 244);
+  margin-top: 50px;
+}
+#pic_sprite4 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(pics/IMG_1378.jpeg);
+}
+/* --------- --------- */
+.billeder {
+  max-width: 800px;
+  align-items: center;
+  margin: auto;
+}
+.container {
+  position: relative;
+}
+
+.hover-image {
+  position: absolute;
+  z-index: 1;
+  transition: opacity 1.3s ease-in-out;
+}
+
+.container:hover .hover-image {
+  transform: scale(1.1);
+  z-index: 3;
+}
